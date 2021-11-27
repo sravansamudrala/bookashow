@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bookmyshow</title>
+  <link rel="shortcut icon" href="C:\Users\SRAVAN KUMAR\Desktop\final task\images\BookMyShow.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style2.css">
+  
+
+  
+</head>
+<body>
+
+
+  
+ <nav class="navbar navbar-dark " style="background-color:#212F3D  ">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#" style="margin-left: 100px;">
+    <img src="logo.svg" alt="logo" style="width: 100px;">
+  </a>
+  
+  <form class="form-inline">
+    <div class="input-group">
+      <div class="input-group-prepend">
+      </div>
+      <input type="search" class="form-control"  style="width: 500px;" placeholder= "Search for Movies,Events,Plays,Sports and Activities">
+    </div>    
+  </form>
+
+
+
+<!-- Dropdown -->
+  <select class="form-select" >
+
+    <option class="selectdown" value="1">Hyderabad</option>
+    <option class="selectdown" value="2">Mumbai</option>
+    <option class="selectdown" value="3">Chennai</option>
+  </select>
+
+
+
+
+  <button class="btn btn-success" style="background-color: rgb(190, 36, 36);" type="submit">Signin</button>
+
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="margin-right: 100px;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Notification</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Help</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Book a Smile</a>
+      </li>    
+    </ul>
+  </div> 
+
+  </nav>
+  
+
+  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #17202A ;">
+  
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item" style="margin-left: 100px;">
+        <a class="nav-link" style="color: white;" href="#">Movies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Stream</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Plays</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sports</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Activities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Buzz</a>
+      </li>
+      <li class="nav-item" style="margin-left: 520px;">
+        <a class="nav-link" href="#">ListYourShow</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Corporates</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Offers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gift Cards</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  
+  <!--Movie Image-->
+
+  <table>
+    <tr>
+        <td>
+  <div class="imgContainer">
+            <div>
+                <img src="images\image1.jpg" width="500px" height="450px"/>
+            </div>
+            <div class="imgButton">
+                <button value="test" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Book Now</button>
+            </div>
+     </div>
+        </td>
+  <td>
+  <div class="imgContainer">
+            <div>
+                <img src="images\image2.jpg" width="500px" height="450px"/>
+            </div>
+            <div class="imgButton">
+                <button value="test" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Book Now</button>
+            </div>
+     </div>
+        </td>
+
+        <td>
+            <div class="imgContainer">
+                      <div>
+                          <img src="images\image3.jpg" width="500px" height="450px"/>
+                      </div>
+                      <div class="imgButton">
+                          <button value="test" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">Book Now</button>
+                      </div>
+               </div>
+                  </td>
+    </tr>
+
+    
+</table>
+
+
+
+
+ <!-- The Modal for first movie -->
+
+<div class="container mt-3">
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Timings</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <a id="time1" value="11:00 AM" href="Seat/Theatre.html">11:00 AM</a>
+          <a id="time" href="Seat/Theatre1.html">2:00 PM</a>
+          <a id="time" href="Seat/Theatre2.html">10:00 PM</a>
+
+         
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+<!-- The Modal for second movie -->
+
+<div class="container mt-3">
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Timings</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <a href="Seat/Theatre3.html">10:00 AM</a>
+          <a href="Seat/Theatre4.html">2:00 PM</a>
+          <a href="Seat/Theatre5.html">10:00 PM</a>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+<!-- The Modal for third movie -->
+
+<div class="container mt-3">
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Timings</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <a href="Seat/Theatre6.html">11:00 AM</a>
+          <a href="Seat/Theatre7.html">2:30 PM</a>
+          <a href="Seat/Theatre8.html">9:30 PM</a>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+  <!--Footer-->
+
+  <div class="jumbotron text-center">
+    <h1>Book Your Show</h1>
+    <p>Enjoy the movie with the popcorn</p> 
+  </div>
+    
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Hyderabad</h3>
+        <p>Dhruva (2016) 4.0/5</p>
+        <p>PelliChoopulu (2016) 4.0/5.</p>
+        <p> Oopiri (2016) 4.0/5</p>
+        <p> Bahubali (2015) 4.0/5.</p>
+        <p> Attarintiki Daredi (2013) 4.0/5</p>
+        <p> Pizza (2013) 4.0/5</p>
+        <p> Sudigadu (2012) 4.0/5</p>
+        <p>Eega (2012) 4.0/5. </p>
+        
+      </div>
+      <div class="col-sm-4">
+        <h3>Chennai</h3>
+        <p>The Green Knight. Release Date: July 30, 2021.</p>
+          <p> CODA. Release Date: August 13, 2021</p>
+            <p> Pig. Release Date: July 16, 2021</p>
+              <p>Candyman. Release Date: August 27, 2021</p>
+                <p>The Suicide Squad. Release Date: August 6, 2021</p>
+                  <p> Prisoners of the Ghostland</p>
+                    <p> Language Lessons</p>
+                      <p>Old</p>
+        
+      </div>
+      <div class="col-sm-4">
+        <h3>Mumbai</h3>        
+        <p>Nayakan (1987) 8.5.</p>
+          <p> Anbe Sivam (2003) 8.5.</p>
+            <p> Pariyerum Perumal (2018) 8.5.</p>
+              <p> C/o Kancharapalem (2018) 8.5.</p>
+                <p> Hanky Panky (1979) 8.5.</p>
+                  <p> Manichithrathazhu (1993) 8.5.</p>
+                    <p> Kireedam (1989) 8.5.</p>
+                      <p>The World of Apu (1959) 8.5.</p>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+  <script src="externalslideshow.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.imgContainer img, 
+.imgContainer .imgButton button {
+    width: 100%;
+     margin-left: 10%;
+}
+
+.imgContainer{
+    padding-left: 150px;
+    padding-top: 10px;
+}
